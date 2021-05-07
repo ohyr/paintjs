@@ -1,0 +1,17 @@
+{
+  "name": "paintjs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/ohyr/paintjs.git",
+  "author": "Yongrok Oh <ohyr96@ajou.ac.kr>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "homepage": "https://ohyr.github.io/paintjs/"
+}
